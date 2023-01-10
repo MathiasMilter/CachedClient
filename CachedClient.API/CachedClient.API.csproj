@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <RootNamespace>CachedClient</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CachedClient.Domain\CachedClient.Domain.csproj" />
+      <ProjectReference Include="..\CachedClient.Infrastructure\CachedClient.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
